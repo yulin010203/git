@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://yulin-pc:8443/svn/trunk"
+   revision="28"
+   last-author="yulin"
+   url="https://yulin-pc:8443/svn/trunk/java/java.talk/resource/icons"
+   committed-rev="28"
+   kind="dir"
+   committed-date="2014-05-31T15:16:39.851000Z"/>
+<entry
+   name="expression.png"
+   checksum="7c63508042773272aee52c73161816da"
+   last-author="yulin"
+   text-time="2014-05-30T15:36:52.451000Z"
+   committed-rev="28"
+   kind="file"
+   committed-date="2014-05-31T15:16:39.851000Z"
+   prop-time="2014-05-31T15:16:20.238000Z"/>
+<entry
+   name="font.png"
+   checksum="6da835a26de59320c347efc34f05184b"
+   last-author="yulin"
+   text-time="2014-05-30T15:57:53.891000Z"
+   committed-rev="28"
+   kind="file"
+   committed-date="2014-05-31T15:16:39.851000Z"
+   prop-time="2014-05-31T15:16:20.695000Z"/>
+<entry
+   name="qq.png"
+   checksum="d70485ba6b2c4defeb77e7886870015e"
+   last-author="yulin"
+   text-time="2014-05-30T15:41:46.369000Z"
+   committed-rev="28"
+   kind="file"
+   committed-date="2014-05-31T15:16:39.851000Z"
+   prop-time="2014-05-31T15:16:20.420000Z"/>
+</wc-entries>

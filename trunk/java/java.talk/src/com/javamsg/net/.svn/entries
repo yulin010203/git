@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://yulin-pc:8443/svn/trunk"
+   name=""
+   revision="27"
+   last-author="yulin"
+   url="https://yulin-pc:8443/svn/trunk/java/java.talk/src/com/javamsg/net"
+   committed-rev="27"
+   kind="dir"
+   committed-date="2014-05-28T15:33:16.821000Z"/>
+<entry
+   name="Receiver.java"
+   checksum="71f64253aa5d10f5af6b1bd059e59f80"
+   last-author="yulin"
+   text-time="2014-05-26T03:19:06.639000Z"
+   committed-rev="27"
+   kind="file"
+   committed-date="2014-05-28T15:33:16.821000Z"/>
+<entry
+   name="Sender.java"
+   checksum="5778189f1b10cacf3e1d94e34bc87c58"
+   last-author="yulin"
+   text-time="2014-05-26T03:19:49.451000Z"
+   committed-rev="27"
+   kind="file"
+   committed-date="2014-05-28T15:33:16.821000Z"/>
+<entry
+   name="TcpReceiver.java"
+   checksum="b5074c372afc8d9f2a68eb51733aa5a2"
+   last-author="yulin"
+   text-time="2014-05-26T03:20:24.104000Z"
+   committed-rev="27"
+   kind="file"
+   committed-date="2014-05-28T15:33:16.821000Z"/>
+<entry
+   name="TcpSender.java"
+   checksum="3e09227b5f9e279d659d196c66a14f99"
+   last-author="yulin"
+   text-time="2014-05-26T03:20:58.450000Z"
+   committed-rev="27"
+   kind="file"
+   committed-date="2014-05-28T15:33:16.821000Z"/>
+</wc-entries>

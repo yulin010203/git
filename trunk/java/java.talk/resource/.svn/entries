@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://yulin-pc:8443/svn/trunk"
+   name=""
+   revision="28"
+   last-author="yulin"
+   url="https://yulin-pc:8443/svn/trunk/java/java.talk/resource"
+   committed-rev="28"
+   kind="dir"
+   committed-date="2014-05-31T15:16:39.851000Z"/>
+<entry
+   name="expression"
+   kind="dir"/>
+<entry
+   name="icons"
+   kind="dir"/>
+</wc-entries>

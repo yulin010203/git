@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://yulin-pc:8443/svn/trunk"
+   name=""
+   revision="27"
+   last-author="yulin"
+   url="https://yulin-pc:8443/svn/trunk/java/java.talk/src"
+   committed-rev="27"
+   kind="dir"
+   committed-date="2014-05-28T15:33:16.821000Z"/>
+<entry
+   name="com"
+   kind="dir"/>
+<entry
+   name="log4j.properties"
+   checksum="804cd5eb3af158270712c81d61916884"
+   last-author="yulin"
+   text-time="2014-05-28T07:23:43.530000Z"
+   committed-rev="27"
+   kind="file"
+   committed-date="2014-05-28T15:33:16.821000Z"/>
+</wc-entries>

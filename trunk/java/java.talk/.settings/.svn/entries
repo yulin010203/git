@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://yulin-pc:8443/svn/trunk"
+   revision="27"
+   last-author="yulin"
+   url="https://yulin-pc:8443/svn/trunk/java/java.talk/.settings"
+   committed-rev="27"
+   kind="dir"
+   committed-date="2014-05-28T15:33:16.821000Z"/>
+<entry
+   name="org.eclipse.jdt.core.prefs"
+   checksum="a49b65c9dd83f505ceb1ab31079e6542"
+   last-author="yulin"
+   text-time="2014-05-26T03:23:50.706000Z"
+   committed-rev="27"
+   kind="file"
+   committed-date="2014-05-28T15:33:16.821000Z"/>
+</wc-entries>

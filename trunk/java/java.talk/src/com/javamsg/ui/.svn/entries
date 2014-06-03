@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://yulin-pc:8443/svn/trunk"
+   name=""
+   revision="27"
+   last-author="yulin"
+   url="https://yulin-pc:8443/svn/trunk/java/java.talk/src/com/javamsg/ui"
+   committed-rev="27"
+   kind="dir"
+   committed-date="2014-05-28T15:33:16.821000Z"/>
+<entry
+   name="AboutDialog.java"
+   checksum="b0cfd8c4bfcc2d77cab594a480439f27"
+   last-author="yulin"
+   committed-rev="27"
+   text-time="2014-05-28T15:33:16.821000Z"
+   kind="file"
+   committed-date="2014-05-28T15:33:16.821000Z"/>
+<entry
+   name="ChatWindow.java"
+   revision="29"
+   checksum="4296257a5c743f0f53fab2bdc140606b"
+   last-author="yulin"
+   committed-rev="29"
+   text-time="2014-05-31T14:28:46.805000Z"
+   kind="file"
+   committed-date="2014-05-31T15:17:23.546000Z"/>
+<entry
+   name="DetectDialog.java"
+   checksum="7dab003fa4b77e5209bec014b373bb08"
+   last-author="yulin"
+   committed-rev="27"
+   text-time="2014-05-28T15:33:16.821000Z"
+   kind="file"
+   committed-date="2014-05-28T15:33:16.821000Z"/>
+<entry
+   name="MainWindow.java"
+   revision="29"
+   checksum="7cc00ec543913221cffaf51f336b0fa8"
+   last-author="yulin"
+   committed-rev="29"
+   text-time="2014-05-30T15:44:51.973000Z"
+   kind="file"
+   committed-date="2014-05-31T15:17:23.546000Z"/>
+<entry
+   name="PreferenceDialog.java"
+   checksum="7fa47fc477185e66e68b4cafda5fcc17"
+   last-author="yulin"
+   committed-rev="27"
+   text-time="2014-05-26T05:40:30.057000Z"
+   kind="file"
+   committed-date="2014-05-28T15:33:16.821000Z"/>
+</wc-entries>

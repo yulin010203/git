@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://yulin-pc:8443/svn/trunk"
+   name=""
+   revision="26"
+   last-author="yulin"
+   uuid="18d66dbb-b965-7d41-a695-2507f223304f"
+   url="https://yulin-pc:8443/svn/trunk/java/java.talk"
+   committed-rev="26"
+   kind="dir"
+   committed-date="2014-05-28T15:33:05.248402Z"/>
+<entry
+   name=".classpath"
+   revision="27"
+   checksum="725e18eee7202fe2dc324516212d3252"
+   last-author="yulin"
+   text-time="2014-05-28T15:26:14.449000Z"
+   committed-rev="27"
+   kind="file"
+   committed-date="2014-05-28T15:33:16.821000Z"/>
+<entry
+   name=".project"
+   revision="27"
+   checksum="20091e8aec0c80a97c722b3a618893f6"
+   last-author="yulin"
+   text-time="2014-05-26T03:23:50.662000Z"
+   committed-rev="27"
+   kind="file"
+   committed-date="2014-05-28T15:33:16.821000Z"/>
+<entry
+   name=".settings"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="logs"
+   kind="dir"/>
+<entry
+   name="qq.jpg"
+   revision="30"
+   kind="file"
+   deleted="true"/>
+<entry
+   name="resource"
+   kind="dir"/>
+<entry
+   name="src"
+   kind="dir"/>
+</wc-entries>
