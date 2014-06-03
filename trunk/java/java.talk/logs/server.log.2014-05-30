@@ -1,0 +1,219 @@
+2014-05-30 10:24:39,528 DEBUG root - Enter class SystemData method init : Initialize System Data. 
+2014-05-30 10:24:39,545 DEBUG root - sender : dfitc 
+2014-05-30 10:24:39,545 DEBUG root - host : dfitc-PC 
+2014-05-30 10:24:39,545 DEBUG root - osVersion : Windows 7#6.1 
+2014-05-30 10:24:39,545 DEBUG root - encoding : UTF-8 
+2014-05-30 10:24:39,546 DEBUG root - Exit class SystemData method init : Initialize System Data. 
+2014-05-30 10:24:39,571 DEBUG root - false 
+2014-05-30 10:24:39,571 DEBUG root - false 
+2014-05-30 10:25:48,065 DEBUG root - Enter class SystemData method init : Initialize System Data. 
+2014-05-30 10:25:48,073 DEBUG root - sender : dfitc 
+2014-05-30 10:25:48,073 DEBUG root - host : dfitc-PC 
+2014-05-30 10:25:48,073 DEBUG root - osVersion : Windows 7#6.1 
+2014-05-30 10:25:48,073 DEBUG root - encoding : UTF-8 
+2014-05-30 10:25:48,073 DEBUG root - Exit class SystemData method init : Initialize System Data. 
+2014-05-30 10:25:48,076 DEBUG root - false 
+2014-05-30 10:25:48,076 DEBUG root - false 
+2014-05-30 10:25:48,253 DEBUG root - Start Receiving UDP Packet Thread ... 
+2014-05-30 10:25:48,253 DEBUG root - begin receive packet 
+2014-05-30 10:25:48,253 INFO root - Enter method : Sender::getBroadcastAddress 
+2014-05-30 10:25:48,254 INFO root - Local Address : 172.16.16.153 
+2014-05-30 10:25:48,259 INFO root - Network Interface of 172.16.16.153 is Realtek PCIe GBE Family Controller 
+2014-05-30 10:25:48,259 INFO root - Address of Realtek PCIe GBE Family Controller fe80:0:0:0:a4fa:c042:dfe9:4cdd%11 
+2014-05-30 10:25:48,259 INFO root - Address of Realtek PCIe GBE Family Controller 172.16.16.153 
+2014-05-30 10:25:48,259 INFO root - Exit method : Sender::getBroadcastAddress 
+2014-05-30 10:25:48,260 DEBUG root - receive message : 1:1401416748254:dfitc:dfitc-PC:257:dfitc 
+2014-05-30 10:25:48,273 DEBUG root - begin receive packet 
+2014-05-30 10:25:48,273 DEBUG root - receive message : 1:1401416748256:dfitc:dfitc-PC:259:dfitc 
+2014-05-30 10:25:48,273 DEBUG root - ip : 172.16.16.153 nickname : dfitc 
+2014-05-30 10:25:48,273 DEBUG root - begin receive packet 
+2014-05-30 10:40:32,429 DEBUG root - Enter class SystemData method init : Initialize System Data. 
+2014-05-30 10:40:32,436 DEBUG root - sender : dfitc 
+2014-05-30 10:40:32,436 DEBUG root - host : dfitc-PC 
+2014-05-30 10:40:32,436 DEBUG root - osVersion : Windows 7#6.1 
+2014-05-30 10:40:32,437 DEBUG root - encoding : UTF-8 
+2014-05-30 10:40:32,437 DEBUG root - Exit class SystemData method init : Initialize System Data. 
+2014-05-30 10:40:32,439 DEBUG root - false 
+2014-05-30 10:40:32,439 DEBUG root - false 
+2014-05-30 10:40:56,941 DEBUG root - Enter class SystemData method init : Initialize System Data. 
+2014-05-30 10:40:56,945 DEBUG root - sender : dfitc 
+2014-05-30 10:40:56,946 DEBUG root - host : dfitc-PC 
+2014-05-30 10:40:56,946 DEBUG root - osVersion : Windows 7#6.1 
+2014-05-30 10:40:56,946 DEBUG root - encoding : UTF-8 
+2014-05-30 10:40:56,947 DEBUG root - Exit class SystemData method init : Initialize System Data. 
+2014-05-30 10:40:56,951 DEBUG root - false 
+2014-05-30 10:40:56,951 DEBUG root - false 
+2014-05-30 10:46:55,003 DEBUG root - Enter class SystemData method init : Initialize System Data. 
+2014-05-30 10:46:55,010 DEBUG root - sender : dfitc 
+2014-05-30 10:46:55,010 DEBUG root - host : dfitc-PC 
+2014-05-30 10:46:55,011 DEBUG root - osVersion : Windows 7#6.1 
+2014-05-30 10:46:55,011 DEBUG root - encoding : UTF-8 
+2014-05-30 10:46:55,011 DEBUG root - Exit class SystemData method init : Initialize System Data. 
+2014-05-30 10:46:55,014 DEBUG root - false 
+2014-05-30 10:46:55,014 DEBUG root - false 
+2014-05-30 10:46:55,190 DEBUG root - Start Receiving UDP Packet Thread ... 
+2014-05-30 10:46:55,190 INFO root - Enter method : Sender::getBroadcastAddress 
+2014-05-30 10:46:55,190 DEBUG root - begin receive packet 
+2014-05-30 10:46:55,190 INFO root - Local Address : 172.16.16.153 
+2014-05-30 10:46:55,195 INFO root - Network Interface of 172.16.16.153 is Realtek PCIe GBE Family Controller 
+2014-05-30 10:46:55,195 INFO root - Address of Realtek PCIe GBE Family Controller fe80:0:0:0:a4fa:c042:dfe9:4cdd%11 
+2014-05-30 10:46:55,195 INFO root - Address of Realtek PCIe GBE Family Controller 172.16.16.153 
+2014-05-30 10:46:55,195 INFO root - Exit method : Sender::getBroadcastAddress 
+2014-05-30 10:46:55,197 DEBUG root - receive message : 1:1401418015191:dfitc:dfitc-PC:257:dfitc 
+2014-05-30 10:46:55,209 DEBUG root - begin receive packet 
+2014-05-30 10:46:55,209 DEBUG root - receive message : 1:1401418015193:dfitc:dfitc-PC:259:dfitc 
+2014-05-30 10:46:55,209 DEBUG root - ip : 172.16.16.153 nickname : dfitc 
+2014-05-30 10:46:55,209 DEBUG root - begin receive packet 
+2014-05-30 10:49:06,778 DEBUG root - Enter class SystemData method init : Initialize System Data. 
+2014-05-30 10:49:06,786 DEBUG root - sender : dfitc 
+2014-05-30 10:49:06,786 DEBUG root - host : dfitc-PC 
+2014-05-30 10:49:06,786 DEBUG root - osVersion : Windows 7#6.1 
+2014-05-30 10:49:06,786 DEBUG root - encoding : UTF-8 
+2014-05-30 10:49:06,786 DEBUG root - Exit class SystemData method init : Initialize System Data. 
+2014-05-30 10:49:06,789 DEBUG root - false 
+2014-05-30 10:49:06,789 DEBUG root - false 
+2014-05-30 10:49:06,953 INFO root - Enter method : Sender::getBroadcastAddress 
+2014-05-30 10:49:06,953 INFO root - Local Address : 172.16.16.153 
+2014-05-30 10:49:06,955 DEBUG root - Start Receiving UDP Packet Thread ... 
+2014-05-30 10:49:06,955 DEBUG root - begin receive packet 
+2014-05-30 10:49:06,959 INFO root - Network Interface of 172.16.16.153 is Realtek PCIe GBE Family Controller 
+2014-05-30 10:49:06,959 INFO root - Address of Realtek PCIe GBE Family Controller fe80:0:0:0:a4fa:c042:dfe9:4cdd%11 
+2014-05-30 10:49:06,959 INFO root - Address of Realtek PCIe GBE Family Controller 172.16.16.153 
+2014-05-30 10:49:06,959 INFO root - Exit method : Sender::getBroadcastAddress 
+2014-05-30 10:49:06,961 DEBUG root - receive message : 1:1401418146953:dfitc:dfitc-PC:257:dfitc 
+2014-05-30 10:49:06,973 DEBUG root - begin receive packet 
+2014-05-30 10:49:06,973 DEBUG root - receive message : 1:1401418146955:dfitc:dfitc-PC:259:dfitc 
+2014-05-30 10:49:06,973 DEBUG root - ip : 172.16.16.153 nickname : dfitc 
+2014-05-30 10:49:06,973 DEBUG root - begin receive packet 
+2014-05-30 10:49:14,051 DEBUG root - Exit Receiving UDP Packet Thread ... 
+2014-05-30 10:49:52,332 DEBUG root - Enter class SystemData method init : Initialize System Data. 
+2014-05-30 10:49:52,339 DEBUG root - sender : dfitc 
+2014-05-30 10:49:52,340 DEBUG root - host : dfitc-PC 
+2014-05-30 10:49:52,340 DEBUG root - osVersion : Windows 7#6.1 
+2014-05-30 10:49:52,340 DEBUG root - encoding : UTF-8 
+2014-05-30 10:49:52,340 DEBUG root - Exit class SystemData method init : Initialize System Data. 
+2014-05-30 10:49:52,344 DEBUG root - false 
+2014-05-30 10:49:52,344 DEBUG root - false 
+2014-05-30 10:49:52,526 DEBUG root - Start Receiving UDP Packet Thread ... 
+2014-05-30 10:49:52,526 DEBUG root - begin receive packet 
+2014-05-30 10:49:52,526 INFO root - Enter method : Sender::getBroadcastAddress 
+2014-05-30 10:49:52,526 INFO root - Local Address : 172.16.16.153 
+2014-05-30 10:49:52,531 INFO root - Network Interface of 172.16.16.153 is Realtek PCIe GBE Family Controller 
+2014-05-30 10:49:52,532 INFO root - Address of Realtek PCIe GBE Family Controller fe80:0:0:0:a4fa:c042:dfe9:4cdd%11 
+2014-05-30 10:49:52,532 INFO root - Address of Realtek PCIe GBE Family Controller 172.16.16.153 
+2014-05-30 10:49:52,532 INFO root - Exit method : Sender::getBroadcastAddress 
+2014-05-30 10:49:52,534 DEBUG root - receive message : 1:1401418192527:dfitc:dfitc-PC:257:dfitc 
+2014-05-30 10:49:52,551 DEBUG root - begin receive packet 
+2014-05-30 10:49:52,551 DEBUG root - receive message : 1:1401418192529:dfitc:dfitc-PC:259:dfitc 
+2014-05-30 10:49:52,551 DEBUG root - ip : 172.16.16.153 nickname : dfitc 
+2014-05-30 10:49:52,551 DEBUG root - begin receive packet 
+2014-05-30 10:49:58,340 DEBUG root - Exit Receiving UDP Packet Thread ... 
+2014-05-30 10:50:07,927 DEBUG root - Enter class SystemData method init : Initialize System Data. 
+2014-05-30 10:50:07,935 DEBUG root - sender : dfitc 
+2014-05-30 10:50:07,935 DEBUG root - host : dfitc-PC 
+2014-05-30 10:50:07,935 DEBUG root - osVersion : Windows 7#6.1 
+2014-05-30 10:50:07,935 DEBUG root - encoding : UTF-8 
+2014-05-30 10:50:07,935 DEBUG root - Exit class SystemData method init : Initialize System Data. 
+2014-05-30 10:50:07,937 DEBUG root - false 
+2014-05-30 10:50:07,938 DEBUG root - false 
+2014-05-30 10:50:08,102 INFO root - Enter method : Sender::getBroadcastAddress 
+2014-05-30 10:50:08,102 INFO root - Local Address : 172.16.16.153 
+2014-05-30 10:50:08,107 DEBUG root - Start Receiving UDP Packet Thread ... 
+2014-05-30 10:50:08,107 DEBUG root - begin receive packet 
+2014-05-30 10:50:08,109 INFO root - Network Interface of 172.16.16.153 is Realtek PCIe GBE Family Controller 
+2014-05-30 10:50:08,110 INFO root - Address of Realtek PCIe GBE Family Controller fe80:0:0:0:a4fa:c042:dfe9:4cdd%11 
+2014-05-30 10:50:08,110 INFO root - Address of Realtek PCIe GBE Family Controller 172.16.16.153 
+2014-05-30 10:50:08,110 INFO root - Exit method : Sender::getBroadcastAddress 
+2014-05-30 10:50:08,110 DEBUG root - receive message : 1:1401418208103:dfitc:dfitc-PC:257:dfitc 
+2014-05-30 10:50:08,121 DEBUG root - begin receive packet 
+2014-05-30 10:50:08,121 DEBUG root - receive message : 1:1401418208105:dfitc:dfitc-PC:259:dfitc 
+2014-05-30 10:50:08,123 DEBUG root - ip : 172.16.16.153 nickname : dfitc 
+2014-05-30 10:50:08,123 DEBUG root - begin receive packet 
+2014-05-30 10:50:17,616 DEBUG root - Exit Receiving UDP Packet Thread ... 
+2014-05-30 10:50:35,900 DEBUG root - Enter class SystemData method init : Initialize System Data. 
+2014-05-30 10:50:35,907 DEBUG root - sender : dfitc 
+2014-05-30 10:50:35,907 DEBUG root - host : dfitc-PC 
+2014-05-30 10:50:35,907 DEBUG root - osVersion : Windows 7#6.1 
+2014-05-30 10:50:35,907 DEBUG root - encoding : UTF-8 
+2014-05-30 10:50:35,907 DEBUG root - Exit class SystemData method init : Initialize System Data. 
+2014-05-30 10:50:35,910 DEBUG root - false 
+2014-05-30 10:50:35,910 DEBUG root - false 
+2014-05-30 10:50:36,068 DEBUG root - Start Receiving UDP Packet Thread ... 
+2014-05-30 10:50:36,068 DEBUG root - begin receive packet 
+2014-05-30 10:50:36,068 INFO root - Enter method : Sender::getBroadcastAddress 
+2014-05-30 10:50:36,068 INFO root - Local Address : 172.16.16.153 
+2014-05-30 10:50:36,075 INFO root - Network Interface of 172.16.16.153 is Realtek PCIe GBE Family Controller 
+2014-05-30 10:50:36,075 INFO root - Address of Realtek PCIe GBE Family Controller fe80:0:0:0:a4fa:c042:dfe9:4cdd%11 
+2014-05-30 10:50:36,075 INFO root - Address of Realtek PCIe GBE Family Controller 172.16.16.153 
+2014-05-30 10:50:36,075 INFO root - Exit method : Sender::getBroadcastAddress 
+2014-05-30 10:50:36,075 DEBUG root - receive message : 1:1401418236069:dfitc:dfitc-PC:257:dfitc 
+2014-05-30 10:50:36,085 DEBUG root - begin receive packet 
+2014-05-30 10:50:36,085 DEBUG root - receive message : 1:1401418236071:dfitc:dfitc-PC:259:dfitc 
+2014-05-30 10:50:36,085 DEBUG root - ip : 172.16.16.153 nickname : dfitc 
+2014-05-30 10:50:36,085 DEBUG root - begin receive packet 
+2014-05-30 10:50:43,742 DEBUG root - Enter class SystemData method init : Initialize System Data. 
+2014-05-30 10:50:43,750 DEBUG root - sender : dfitc 
+2014-05-30 10:50:43,750 DEBUG root - host : dfitc-PC 
+2014-05-30 10:50:43,750 DEBUG root - osVersion : Windows 7#6.1 
+2014-05-30 10:50:43,750 DEBUG root - encoding : UTF-8 
+2014-05-30 10:50:43,750 DEBUG root - Exit class SystemData method init : Initialize System Data. 
+2014-05-30 10:50:43,753 DEBUG root - false 
+2014-05-30 10:50:43,753 DEBUG root - false 
+2014-05-30 10:50:43,908 DEBUG root - Start Receiving UDP Packet Thread ... 
+2014-05-30 10:50:43,909 DEBUG root - begin receive packet 
+2014-05-30 10:50:43,909 INFO root - Enter method : Sender::getBroadcastAddress 
+2014-05-30 10:50:43,909 INFO root - Local Address : 172.16.16.153 
+2014-05-30 10:50:43,913 INFO root - Network Interface of 172.16.16.153 is Realtek PCIe GBE Family Controller 
+2014-05-30 10:50:43,913 INFO root - Address of Realtek PCIe GBE Family Controller fe80:0:0:0:a4fa:c042:dfe9:4cdd%11 
+2014-05-30 10:50:43,913 INFO root - Address of Realtek PCIe GBE Family Controller 172.16.16.153 
+2014-05-30 10:50:43,913 INFO root - Exit method : Sender::getBroadcastAddress 
+2014-05-30 10:50:43,914 DEBUG root - receive message : 1:1401418243909:dfitc:dfitc-PC:257:dfitc 
+2014-05-30 10:50:43,924 DEBUG root - begin receive packet 
+2014-05-30 10:50:43,924 DEBUG root - receive message : 1:1401418243911:dfitc:dfitc-PC:259:dfitc 
+2014-05-30 10:50:43,924 DEBUG root - ip : 172.16.16.153 nickname : dfitc 
+2014-05-30 10:50:43,924 DEBUG root - begin receive packet 
+2014-05-30 10:50:50,136 DEBUG root - Exit Receiving UDP Packet Thread ... 
+2014-05-30 10:51:23,265 DEBUG root - Enter class SystemData method init : Initialize System Data. 
+2014-05-30 10:51:23,273 DEBUG root - sender : dfitc 
+2014-05-30 10:51:23,273 DEBUG root - host : dfitc-PC 
+2014-05-30 10:51:23,273 DEBUG root - osVersion : Windows 7#6.1 
+2014-05-30 10:51:23,273 DEBUG root - encoding : UTF-8 
+2014-05-30 10:51:23,273 DEBUG root - Exit class SystemData method init : Initialize System Data. 
+2014-05-30 10:51:23,277 DEBUG root - false 
+2014-05-30 10:51:23,277 DEBUG root - false 
+2014-05-30 10:51:23,462 DEBUG root - Start Receiving UDP Packet Thread ... 
+2014-05-30 10:51:23,462 INFO root - Enter method : Sender::getBroadcastAddress 
+2014-05-30 10:51:23,462 INFO root - Local Address : 172.16.16.153 
+2014-05-30 10:51:23,464 DEBUG root - begin receive packet 
+2014-05-30 10:51:23,468 INFO root - Network Interface of 172.16.16.153 is Realtek PCIe GBE Family Controller 
+2014-05-30 10:51:23,468 INFO root - Address of Realtek PCIe GBE Family Controller fe80:0:0:0:a4fa:c042:dfe9:4cdd%11 
+2014-05-30 10:51:23,468 INFO root - Address of Realtek PCIe GBE Family Controller 172.16.16.153 
+2014-05-30 10:51:23,468 INFO root - Exit method : Sender::getBroadcastAddress 
+2014-05-30 10:51:23,469 DEBUG root - receive message : 1:1401418283462:dfitc:dfitc-PC:257:dfitc 
+2014-05-30 10:51:23,480 DEBUG root - begin receive packet 
+2014-05-30 10:51:23,480 DEBUG root - receive message : 1:1401418283464:dfitc:dfitc-PC:259:dfitc 
+2014-05-30 10:51:23,480 DEBUG root - ip : 172.16.16.153 nickname : dfitc 
+2014-05-30 10:51:23,480 DEBUG root - begin receive packet 
+2014-05-30 10:51:30,641 DEBUG root - Exit Receiving UDP Packet Thread ... 
+2014-05-30 10:54:06,449 DEBUG root - Enter class SystemData method init : Initialize System Data. 
+2014-05-30 10:54:06,457 DEBUG root - sender : dfitc 
+2014-05-30 10:54:06,457 DEBUG root - host : dfitc-PC 
+2014-05-30 10:54:06,457 DEBUG root - osVersion : Windows 7#6.1 
+2014-05-30 10:54:06,457 DEBUG root - encoding : UTF-8 
+2014-05-30 10:54:06,457 DEBUG root - Exit class SystemData method init : Initialize System Data. 
+2014-05-30 10:54:06,460 DEBUG root - false 
+2014-05-30 10:54:06,460 DEBUG root - false 
+2014-05-30 10:54:06,638 DEBUG root - Start Receiving UDP Packet Thread ... 
+2014-05-30 10:54:06,639 DEBUG root - begin receive packet 
+2014-05-30 10:54:06,639 INFO root - Enter method : Sender::getBroadcastAddress 
+2014-05-30 10:54:06,639 INFO root - Local Address : 172.16.16.153 
+2014-05-30 10:54:06,643 INFO root - Network Interface of 172.16.16.153 is Realtek PCIe GBE Family Controller 
+2014-05-30 10:54:06,643 INFO root - Address of Realtek PCIe GBE Family Controller fe80:0:0:0:a4fa:c042:dfe9:4cdd%11 
+2014-05-30 10:54:06,644 INFO root - Address of Realtek PCIe GBE Family Controller 172.16.16.153 
+2014-05-30 10:54:06,644 INFO root - Exit method : Sender::getBroadcastAddress 
+2014-05-30 10:54:06,644 DEBUG root - receive message : 1:1401418446639:dfitc:dfitc-PC:257:dfitc 
+2014-05-30 10:54:06,654 DEBUG root - begin receive packet 
+2014-05-30 10:54:06,654 DEBUG root - receive message : 1:1401418446641:dfitc:dfitc-PC:259:dfitc 
+2014-05-30 10:54:06,654 DEBUG root - ip : 172.16.16.153 nickname : dfitc 
+2014-05-30 10:54:06,655 DEBUG root - begin receive packet 
+2014-05-30 10:54:12,926 DEBUG root - Exit Receiving UDP Packet Thread ... 

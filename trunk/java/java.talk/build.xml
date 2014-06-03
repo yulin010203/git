@@ -1,0 +1,40 @@
+<!-- smsCenter 项目构建文件 -->
+<project name="java.talk" basedir="." default="default">
+	<property name="src" value="src" />
+	<property name="lib" value="lib" />
+	<property name="build" value="build" />
+	<property name="icons" value="resource/icons" />
+	<property file="build.properties"/>
+	<path id="project.classpath">
+		<fileset dir="${lib}" includes="**/*.jar"/>
+	</path>
+
+	<!-- 编译 -->
+	<target name="default">
+		<delete dir="${build}" />
+	    <mkdir dir="${build}"/>
+
+		<javac destdir="${build}" classpathref="project.classpath" verbose="false" debug="${build.debug}" includeantruntime="true" encoding="UTF-8">
+			<src path="${src}" />
+			<include name="**/*.java"/>
+		</javac>
+		<copy todir="${build}">
+			<fileset dir="${icons}">
+				<include name="**/*.jpg"></include>
+			</fileset>
+			<fileset dir="${src}">
+				<include name="**/*.properties"></include>
+			</fileset>
+		</copy>
+		<jar destfile="${build}/java.talk.jar" basedir="${build}" compress="true">
+			<manifest>
+				<attribute name="Main-Class" value="com.javamsg.ui.MainWindow"/>
+			</manifest>
+		</jar>
+	</target>
+	
+	<target name="run" depends="default">
+			<java jar="${build}/java.talk.jar.jar" fork="true" />
+		</target>
+
+</project>
