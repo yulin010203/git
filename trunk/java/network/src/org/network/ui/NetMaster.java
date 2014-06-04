@@ -1,4 +1,4 @@
-package org.network.util;
+package org.network.ui;
 
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
