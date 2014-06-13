@@ -1,0 +1,8 @@
+2014-06-03 22:36:00,172 DEBUG root - Enter class SystemData method init : Initialize System Data. 
+2014-06-03 22:36:00,268 DEBUG root - sender : Yulin 
+2014-06-03 22:36:00,268 DEBUG root - host : Yulin-PC 
+2014-06-03 22:36:00,269 DEBUG root - osVersion : Windows 7#6.1 
+2014-06-03 22:36:00,269 DEBUG root - encoding : windows-1252 
+2014-06-03 22:36:00,269 DEBUG root - Exit class SystemData method init : Initialize System Data. 
+2014-06-03 22:36:00,490 DEBUG root - false 
+2014-06-03 22:36:00,491 DEBUG root - false 
