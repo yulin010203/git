@@ -7,6 +7,9 @@ import java.util.Arrays;
 import jpcap.*;
 import jpcap.packet.*;
 
+/**
+ * @author 陈霖 2014年6月25日
+ */
 public class ARP {
 	public static byte[] arp(InetAddress ip) throws java.io.IOException {
 		// find network interface
@@ -80,6 +83,7 @@ public class ARP {
 	}
 
 	public static void main(String[] args) throws Exception {
+		args = new String[]{"127.0.0.1"};
 		if (args.length < 1) {
 			System.out.println("Usage: java ARP <ip address>");
 		} else {
