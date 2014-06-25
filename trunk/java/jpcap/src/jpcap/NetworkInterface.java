@@ -19,14 +19,20 @@ public class NetworkInterface {
 	/** Ethernet MAC address of the network interface */
 	public byte[] mac_address;
 	/**
-	 * Network addresses assigned the network interface. May be null if it is a
-	 * non-IP (e.g. NetBios) address.
+	 * Network addresses assigned the network interface. May be null if it is a non-IP (e.g. NetBios) address.
 	 */
 	public NetworkInterfaceAddress[] addresses;
 
-	public NetworkInterface(String name, String description, boolean loopback,
-			String datalink_name, String datalink_description, byte[] mac,
-			NetworkInterfaceAddress[] addresses) {
+	/**
+	 * @param name
+	 * @param description
+	 * @param loopback
+	 * @param datalink_name
+	 * @param datalink_description
+	 * @param mac
+	 * @param addresses
+	 */
+	public NetworkInterface(String name, String description, boolean loopback, String datalink_name, String datalink_description, byte[] mac, NetworkInterfaceAddress[] addresses) {
 		this.name = name;
 		this.description = description;
 		this.loopback = loopback;

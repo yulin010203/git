@@ -1,7 +1,5 @@
 package jpcap;
 
-import java.io.EOFException;
-
 import jpcap.packet.Packet;
 
 /**
@@ -147,6 +145,9 @@ public class JpcapCaptor extends JpcapInstance {
 	/**
 	 * Same as <a
 	 * href="#processPacket(int, jpcap.PacketReceiver)">processPacket()</a>
+	 * @param count 
+	 * @param handler 
+	 * @return int
 	 */
 	@Deprecated
 	public int dispatchPacket(int count, PacketReceiver handler) {
