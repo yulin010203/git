@@ -1,5 +1,7 @@
 package jpcap;
 
+import java.io.IOException;
+
 import jpcap.packet.Packet;
 
 /** This class is used to send a packet. */
@@ -18,9 +20,9 @@ public class JpcapSender extends JpcapInstance {
 
 	private static final int RAW_SOCKET_ID = 99999;
 
-	private JpcapSender() throws java.io.IOException {
+	private JpcapSender() throws IOException {
 		if (reserveID() < 0)
-			throw new java.io.IOException("Unable to open a device: "
+			throw new IOException("Unable to open a device: "
 					+ MAX_NUMBER_OF_INSTANCE + " devices are already opened.");
 	}
 
@@ -39,14 +41,14 @@ public class JpcapSender extends JpcapInstance {
 	 * @return intstance of this class (JpcapSender)
 	 */
 	public static JpcapSender openDevice(NetworkInterface device)
-			throws java.io.IOException {
+			throws IOException {
 		JpcapSender sender = new JpcapSender();
 		String ret = sender.nativeOpenDevice(device.name);
 
 		if (ret == null)
 			return sender;
 		else
-			throw new java.io.IOException(ret);
+			throw new IOException(ret);
 	}
 
 	/**
@@ -62,7 +64,7 @@ public class JpcapSender extends JpcapInstance {
 	 * @return intstance of this class (JpcapSender)
 	 */
 	@Deprecated
-	public static JpcapSender openRawSocket() throws java.io.IOException {
+	public static JpcapSender openRawSocket() throws IOException {
 		JpcapSender sender = new JpcapSender();
 		sender.nativeOpenRawSocket();
 		sender.ID = RAW_SOCKET_ID;

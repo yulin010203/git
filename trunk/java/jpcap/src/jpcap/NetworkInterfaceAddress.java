@@ -16,13 +16,17 @@ public class NetworkInterfaceAddress {
 	/** Broadcast address of the network interface. May be null. */
 	public InetAddress broadcast;
 	/**
-	 * Destination address of the network interface (for P2P connection). May be
-	 * null.
+	 * Destination address of the network interface (for P2P connection). May be null.
 	 */
 	public InetAddress destination;
 
-	public NetworkInterfaceAddress(byte[] address, byte[] subnet,
-			byte[] broadcast, byte[] destination) {
+	/**
+	 * @param address
+	 * @param subnet
+	 * @param broadcast
+	 * @param destination
+	 */
+	public NetworkInterfaceAddress(byte[] address, byte[] subnet, byte[] broadcast, byte[] destination) {
 		try {
 			if (address != null)
 				this.address = InetAddress.getByAddress(address);

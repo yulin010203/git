@@ -4,6 +4,8 @@ import java.net.Inet4Address;
 import java.net.Inet6Address;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * This class represents an IP packet.
@@ -107,7 +109,8 @@ public class IPPacket extends Packet {
 	public byte[] option;
 
 	/** Option headers in IPv6Option (v6) */
-	public java.util.List options = null;
+	@SuppressWarnings("rawtypes")
+	public List options = null;
 
 	/**
 	 * Sets the IPv4 parameters
@@ -136,17 +139,14 @@ public class IPPacket extends Packet {
 	 *            Time To Live
 	 * @param protocol
 	 *            Protocol <BR>
-	 *            This value is ignored when this packets inherits a higher
-	 *            layer protocol(e.g. TCPPacket)
+	 *            This value is ignored when this packets inherits a higher layer protocol(e.g. TCPPacket)
 	 * @param src
 	 *            Source IP address
 	 * @param dst
 	 *            Destination IP address
 	 */
-	public void setIPv4Parameter(int priority, boolean d_flag, boolean t_flag,
-			boolean r_flag, int rsv_tos, boolean rsv_frag, boolean dont_frag,
-			boolean more_frag, int offset, int ident, int ttl, int protocol,
-			InetAddress src, InetAddress dst) {
+	public void setIPv4Parameter(int priority, boolean d_flag, boolean t_flag, boolean r_flag, int rsv_tos, boolean rsv_frag, boolean dont_frag, boolean more_frag, int offset, int ident, int ttl,
+			int protocol, InetAddress src, InetAddress dst) {
 		this.version = 4;
 		this.priority = (byte) priority;
 		this.d_flag = d_flag;
@@ -184,8 +184,7 @@ public class IPPacket extends Packet {
 	 * @param dst
 	 *            destination address
 	 */
-	public void setIPv6Parameter(int cls, int flowlabel, int nxt_hdr,
-			int hop_limit, InetAddress src, InetAddress dst) {
+	public void setIPv6Parameter(int cls, int flowlabel, int nxt_hdr, int hop_limit, InetAddress src, InetAddress dst) {
 		this.version = 6;
 		this.priority = (byte) cls;
 		this.flow_label = flowlabel;
@@ -197,9 +196,7 @@ public class IPPacket extends Packet {
 		this.dst_ip = dst;
 	}
 
-	void setIPv4Value(byte ver, byte pri, boolean d, boolean t, boolean r,
-			byte rsv_tos, boolean rf, boolean df, boolean mf, short offset,
-			short len, short ident, short ttl, short proto, byte[] src,
+	void setIPv4Value(byte ver, byte pri, boolean d, boolean t, boolean r, byte rsv_tos, boolean rf, boolean df, boolean mf, short offset, short len, short ident, short ttl, short proto, byte[] src,
 			byte[] dst) {
 
 		this.version = ver;
@@ -229,8 +226,7 @@ public class IPPacket extends Packet {
 		this.option = option;
 	}
 
-	void setIPv6Value(byte ver, byte v6class, int flow, short payload,
-			byte nxt, short hlim, byte[] src, byte[] dst) {
+	void setIPv6Value(byte ver, byte v6class, int flow, short payload, byte nxt, short hlim, byte[] src, byte[] dst) {
 		this.version = ver;
 		this.priority = v6class;
 		this.flow_label = flow;
@@ -244,10 +240,11 @@ public class IPPacket extends Packet {
 		}
 	}
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	void addOptionHeader(IPv6Option header) {
-		if (options == null)
-			options = new java.util.ArrayList();
-
+		if (options == null) {
+			options = new ArrayList();
+		}
 		options.add(header);
 	}
 
@@ -262,28 +259,19 @@ public class IPPacket extends Packet {
 	/**
 	 * Returns a string represenation of this packet.
 	 * <P>
-	 * Format(IPv4): src_ip->dst_ip protocol(protocol) priority(priority)
-	 * [D][T][R] hop(hop_limit) [RF/][DF/][MF] offset(offset) ident(ident)
+	 * Format(IPv4): src_ip->dst_ip protocol(protocol) priority(priority) [D][T][R] hop(hop_limit) [RF/][DF/][MF] offset(offset) ident(ident)
 	 * <P>
 	 * 
-	 * Format(IPv6): src_ip->dst_ip protocol(protocol) priority(priority)
-	 * flowlabel(flow_label) hop(hop_limit)
+	 * Format(IPv6): src_ip->dst_ip protocol(protocol) priority(priority) flowlabel(flow_label) hop(hop_limit)
 	 * 
 	 * @return a string represenation of this packet
 	 */
 	public String toString() {
 		if (version == 4) {
-			return super.toString() + " " + src_ip + "->" + dst_ip
-					+ " protocol(" + protocol + ") priority(" + priority + ") "
-					+ (d_flag ? "D" : "") + (t_flag ? "T" : "")
-					+ (r_flag ? "R" : "") + " hop(" + hop_limit + ") "
-					+ (rsv_frag ? "RF/" : "") + (dont_frag ? "DF/" : "")
-					+ (more_frag ? "MF" : "") + " offset(" + offset
-					+ ") ident(" + ident + ")";
+			return super.toString() + " " + src_ip + "->" + dst_ip + " protocol(" + protocol + ") priority(" + priority + ") " + (d_flag ? "D" : "") + (t_flag ? "T" : "") + (r_flag ? "R" : "")
+					+ " hop(" + hop_limit + ") " + (rsv_frag ? "RF/" : "") + (dont_frag ? "DF/" : "") + (more_frag ? "MF" : "") + " offset(" + offset + ") ident(" + ident + ")";
 		} else {
-			return super.toString() + " " + src_ip + "->" + dst_ip
-					+ " protocol(" + protocol + ") priority(" + priority
-					+ ") flowlabel(" + flow_label + ") hop(" + hop_limit + ")";
+			return super.toString() + " " + src_ip + "->" + dst_ip + " protocol(" + protocol + ") priority(" + priority + ") flowlabel(" + flow_label + ") hop(" + hop_limit + ")";
 		}
 	}
 }
