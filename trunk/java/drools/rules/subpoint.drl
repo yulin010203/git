@@ -1,0 +1,23 @@
+package demo;
+
+import demo.PointDomain;
+
+rule subBackNumsPoint
+	salience 10
+	lock-on-active true
+	when
+		$pointDomain : PointDomain(backNums >= 1)
+	then
+		$pointDomain.setPoint($pointDomain.getPoint()-10);
+		$pointDomain.recordPointLog($pointDomain.getUserName(),"subBackNumsPoint");
+end
+
+rule subBackMondyPoint
+	salience 9
+	lock-on-active true
+	when
+		$pointDomain : PointDomain(backMondy >= 100)
+	then
+		$pointDomain.setPoint($pointDomain.getPoint()-10);
+		$pointDomain.recordPointLog($pointDomain.getUserName(),"subBackMondyPoint");
+end
