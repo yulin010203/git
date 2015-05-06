@@ -1,5 +1,7 @@
 package struct;
 
+import java.lang.reflect.Field;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -68,18 +70,23 @@ public class CThostFtdcProductField extends Structure {
 	@Override
 	@SuppressWarnings("rawtypes")
 	protected List getFieldOrder() {
-		return Arrays.asList(new String[] { "BrokerID", "UserID" });
+		Field[] fields = this.getClass().getDeclaredFields();
+		List<String> names = new ArrayList<String>(fields.length);
+		for (int i = 0; i < fields.length; i++) {
+			names.add(fields[i].getName());
+		}
+		return names;
 	}
 
 	/**
 	 * 指针
 	 */
-	public class ByReference extends CThostFtdcProductField implements Structure.ByReference {
+	public static class ByReference extends CThostFtdcProductField implements Structure.ByReference {
 	}
 
 	/**
 	 * 值
 	 */
-	public class ByValue extends CThostFtdcProductField implements Structure.ByValue {
+	public static class ByValue extends CThostFtdcProductField implements Structure.ByValue {
 	}
 }

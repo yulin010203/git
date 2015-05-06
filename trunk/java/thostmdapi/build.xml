@@ -1,0 +1,14 @@
+<project name="mdapi" basedir="." default="default">
+	<property name="lib" value="lib" />
+	<property name="dist" value="dist" />
+	<target name="default" description="zip mdapi.dll">
+		<delete dir="${dist}" />
+		<mkdir dir="${dist}" />
+		<copy todir="${dist}">
+			<fileset dir="${lib}">
+				<include name="**/*.dll" />
+			</fileset>
+		</copy>
+		<jar destfile="${lib}/mdapi.jar" basedir="${dist}" compress="true" />
+	</target>
+</project>
