@@ -1,4 +1,3 @@
-#include "stdio.h"
 #include "ThostFtdcMdApi.h"
 #include "thostmdapi.h"
 

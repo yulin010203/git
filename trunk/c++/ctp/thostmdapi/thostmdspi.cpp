@@ -8,7 +8,6 @@ void CMdSpi::OnFrontConnected()
 {
 	if (onFrontConnectedfp != 0)
 	{
-		OutputDebugString("connect success!\n");
 		(*onFrontConnectedfp)();
 	} else 
 	{

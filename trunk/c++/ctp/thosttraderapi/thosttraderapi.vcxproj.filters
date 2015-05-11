@@ -39,9 +39,6 @@
     <ClInclude Include="thosttraderapi.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="thosttraderrtn.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="thosttraderspi.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -54,6 +51,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="thosttraderapi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="thosttraderspi.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
