@@ -73,7 +73,43 @@ TRADER_API void RegisterNameServer(char *pszNsAddress)
 ///注册回调接口
 TRADER_API void RegisterSpifp(OnFrontConnectedfp onFrontConnectedfp, OnFrontDisconnectedfp onFrontDisconnectedfp, OnRspUserLoginfp onRspUserLoginfp, OnRspUserLogoutfp onRspUserLogoutfp, OnRspOrderInsertfp onRspOrderInsertfp, OnRspParkedOrderInsertfp onRspParkedOrderInsertfp, OnRspParkedOrderActionfp onRspParkedOrderActionfp, OnRspOrderActionfp onRspOrderActionfp, OnRspQueryMaxOrderVolumefp onRspQueryMaxOrderVolumefp, OnRspRemoveParkedOrderfp onRspRemoveParkedOrderfp, OnRspRemoveParkedOrderActionfp onRspRemoveParkedOrderActionfp, OnRspQryOrderfp onRspQryOrderfp, OnRspQryTradefp onRspQryTradefp, OnRspQryInvestorPositionfp onRspQryInvestorPositionfp, OnRspQryTradingAccountfp onRspQryTradingAccountfp, OnRspQryInvestorfp onRspQryInvestorfp, OnRspQryTradingCodefp onRspQryTradingCodefp, OnRspQryInstrumentMarginRatefp onRspQryInstrumentMarginRatefp, OnRspQryInstrumentCommissionRatefp onRspQryInstrumentCommissionRatefp, OnRspQryExchangefp onRspQryExchangefp, OnRspQryInstrumentfp onRspQryInstrumentfp, OnRspQryDepthMarketDatafp onRspQryDepthMarketDatafp, OnRspQryInvestorPositionDetailfp onRspQryInvestorPositionDetailfp, OnRspQryNoticefp onRspQryNoticefp, OnRspQryInvestorPositionCombineDetailfp onRspQryInvestorPositionCombineDetailfp, OnRspErrorfp onRspErrorfp, OnRtnOrderfp onRtnOrderfp, OnRtnTradefp onRtnTradefp, OnErrRtnOrderInsertfp onErrRtnOrderInsertfp, OnErrRtnOrderActionfp onErrRtnOrderActionfp, OnRtnInstrumentStatusfp onRtnInstrumentStatusfp, OnRtnTradingNoticefp onRtnTradingNoticefp, OnRtnErrorConditionalOrderfp onRtnErrorConditionalOrderfp, OnRspQryParkedOrderfp onRspQryParkedOrderfp, OnRspQryParkedOrderActionfp onRspQryParkedOrderActionfp, OnRspQryTradingNoticefp onRspQryTradingNoticefp)
 {
-
+	traderspi->onFrontConnectedfp = onFrontConnectedfp;
+	traderspi->onFrontDisconnectedfp = onFrontDisconnectedfp;
+	traderspi->onRspUserLoginfp = onRspUserLoginfp;
+	traderspi->onRspUserLogoutfp = onRspUserLogoutfp;
+	traderspi->onRspOrderInsertfp = onRspOrderInsertfp;
+	traderspi->onRspParkedOrderInsertfp = onRspParkedOrderInsertfp;
+	traderspi->onRspParkedOrderActionfp = onRspParkedOrderActionfp;
+	traderspi->onRspOrderActionfp = onRspOrderActionfp;
+	traderspi->onRspQueryMaxOrderVolumefp = onRspQueryMaxOrderVolumefp;
+	traderspi->onRspRemoveParkedOrderfp = onRspRemoveParkedOrderfp;
+	traderspi->onRspRemoveParkedOrderActionfp = onRspRemoveParkedOrderActionfp;
+	traderspi->onRspQryOrderfp = onRspQryOrderfp;
+	traderspi->onRspQryTradefp = onRspQryTradefp;
+	traderspi->onRspQryInvestorPositionfp = onRspQryInvestorPositionfp;
+	traderspi->onRspQryTradingAccountfp = onRspQryTradingAccountfp;
+	traderspi->onRspQryInvestorfp = onRspQryInvestorfp;
+	traderspi->onRspQryTradingCodefp = onRspQryTradingCodefp;
+	traderspi->onRspQryInstrumentMarginRatefp = onRspQryInstrumentMarginRatefp;
+	traderspi->onRspQryInstrumentCommissionRatefp = onRspQryInstrumentCommissionRatefp;
+	traderspi->onRspQryExchangefp = onRspQryExchangefp;
+	traderspi->onRspQryInstrumentfp = onRspQryInstrumentfp;
+	traderspi->onRspQryDepthMarketDatafp = onRspQryDepthMarketDatafp;
+	traderspi->onRspQryInvestorPositionDetailfp = onRspQryInvestorPositionDetailfp;
+	traderspi->onRspQryNoticefp = onRspQryNoticefp;
+	traderspi->onRspQryInvestorPositionCombineDetailfp = onRspQryInvestorPositionCombineDetailfp;
+	traderspi->onRspErrorfp = onRspErrorfp;
+	traderspi->onRtnOrderfp = onRtnOrderfp;
+	traderspi->onRtnTradefp = onRtnTradefp;
+	traderspi->onErrRtnOrderInsertfp = onErrRtnOrderInsertfp;
+	traderspi->onErrRtnOrderActionfp = onErrRtnOrderActionfp;
+	traderspi->onRtnInstrumentStatusfp = onRtnInstrumentStatusfp;
+	traderspi->onRtnTradingNoticefp = onRtnTradingNoticefp;
+	traderspi->onRtnErrorConditionalOrderfp = onRtnErrorConditionalOrderfp;
+	traderspi->onRspQryParkedOrderfp = onRspQryParkedOrderfp;
+	traderspi->onRspQryParkedOrderActionfp = onRspQryParkedOrderActionfp;
+	traderspi->onRspQryTradingNoticefp = onRspQryTradingNoticefp;
+	traderapi->RegisterSpi(traderspi);
 }
 ///订阅私有流。
 ///@param nResumeType 私有流重传方式  
@@ -112,7 +148,7 @@ TRADER_API int ReqUserLogout(CThostFtdcUserLogoutField *pUserLogout, int nReques
 ///报单录入请求
 TRADER_API int ReqOrderInsert(CThostFtdcInputOrderField *pInputOrder, int nRequestID)
 {
-	return traderapi->ReqOrderInsert(pInputOrder, )
+	return traderapi->ReqOrderInsert(pInputOrder, nRequestID);
 }
 
 ///预埋单录入请求
