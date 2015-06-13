@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jna", "jna\jna.vcxproj", "{AA452862-3A1B-4700-ADBC-AE66359F2027}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{5FF1B2A8-AECC-4FA6-BA40-817E4A70A2A9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testlib", "testlib\testlib.vcxproj", "{E215ECD3-898E-44EE-AC7A-FEC565ADD25C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA452862-3A1B-4700-ADBC-AE66359F2027}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AA452862-3A1B-4700-ADBC-AE66359F2027}.Debug|Win32.Build.0 = Debug|Win32
+		{AA452862-3A1B-4700-ADBC-AE66359F2027}.Release|Win32.ActiveCfg = Release|Win32
+		{AA452862-3A1B-4700-ADBC-AE66359F2027}.Release|Win32.Build.0 = Release|Win32
+		{5FF1B2A8-AECC-4FA6-BA40-817E4A70A2A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5FF1B2A8-AECC-4FA6-BA40-817E4A70A2A9}.Debug|Win32.Build.0 = Debug|Win32
+		{5FF1B2A8-AECC-4FA6-BA40-817E4A70A2A9}.Release|Win32.ActiveCfg = Release|Win32
+		{5FF1B2A8-AECC-4FA6-BA40-817E4A70A2A9}.Release|Win32.Build.0 = Release|Win32
+		{E215ECD3-898E-44EE-AC7A-FEC565ADD25C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E215ECD3-898E-44EE-AC7A-FEC565ADD25C}.Debug|Win32.Build.0 = Debug|Win32
+		{E215ECD3-898E-44EE-AC7A-FEC565ADD25C}.Release|Win32.ActiveCfg = Release|Win32
+		{E215ECD3-898E-44EE-AC7A-FEC565ADD25C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
