@@ -1,7 +1,5 @@
 package struct;
 
-import java.lang.reflect.Field;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -118,12 +116,9 @@ public class CThostFtdcInstrumentField extends Structure {
 	@Override
 	@SuppressWarnings("rawtypes")
 	protected List getFieldOrder() {
-		Field[] fields = this.getClass().getDeclaredFields();
-		List<String> names = new ArrayList<String>(fields.length);
-		for (int i = 0; i < fields.length; i++) {
-			names.add(fields[i].getName());
-		}
-		return names;
+		return Arrays.asList(new String[] { "InstrumentID", "ExchangeID", "InstrumentName", "ExchangeInstID", "ProductID", "ProductClass", "DeliveryYear", "DeliveryMonth", "MaxMarketOrderVolume",
+				"MinMarketOrderVolume", "MaxLimitOrderVolume", "MinLimitOrderVolume", "VolumeMultiple", "PriceTick", "CreateDate", "OpenDate", "ExpireDate", "StartDelivDate", "EndDelivDate",
+				"InstLifePhase", "IsTrading", "PositionType", "PositionDateType", "LongMarginRatio", "ShortMarginRatio" });
 	}
 
 	/**

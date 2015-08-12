@@ -1,7 +1,5 @@
 package struct;
 
-import java.lang.reflect.Field;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -10,7 +8,7 @@ import com.sun.jna.Structure;
 /**
  * 用户登出请求
  * 
- * @author 陈霖 2015-5-4
+ * @author 陈霖 2015-5-5
  */
 public class CThostFtdcUserLogoutField extends Structure {
 
@@ -26,23 +24,18 @@ public class CThostFtdcUserLogoutField extends Structure {
 	@Override
 	@SuppressWarnings("rawtypes")
 	protected List getFieldOrder() {
-		Field[] fields = this.getClass().getDeclaredFields();
-		List<String> names = new ArrayList<String>(fields.length);
-		for (int i = 0; i < fields.length; i++) {
-			names.add(fields[i].getName());
-		}
-		return names;
+		return Arrays.asList(new String[] { "BrokerID", "UserID" });
 	}
 
 	/**
 	 * 指针
 	 */
 	public static class ByReference extends CThostFtdcUserLogoutField implements Structure.ByReference {
-	}
+	};
 
 	/**
 	 * 值
 	 */
 	public static class ByValue extends CThostFtdcUserLogoutField implements Structure.ByValue {
-	}
+	};
 }

@@ -1,7 +1,5 @@
 package struct;
 
-import java.lang.reflect.Field;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -29,12 +27,7 @@ public class CThostFtdcRspAuthenticateField extends Structure {
 	@Override
 	@SuppressWarnings("rawtypes")
 	protected List getFieldOrder() {
-		Field[] fields = this.getClass().getDeclaredFields();
-		List<String> names = new ArrayList<String>(fields.length);
-		for (int i = 0; i < fields.length; i++) {
-			names.add(fields[i].getName());
-		}
-		return names;
+		return Arrays.asList(new String[] { "BrokerID", "UserID", "UserProductInfo" });
 	}
 
 	/**
